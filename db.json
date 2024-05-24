@@ -1,0 +1,46 @@
+{
+  "streaks": [
+    {
+      "id": "b397",
+      "streakName": "Weight Lifting",
+      "description": "Lift weight at least 4 days a week. ",
+      "startDate": "2024-05-15",
+      "dayCount": 10
+    },
+    {
+      "id": "6493",
+      "streakName": "make a beat",
+      "description": "Make a beat a day",
+      "startDate": "2024-05-23",
+      "dayCount": 2
+    },
+    {
+      "id": "c1fd",
+      "streakName": "Healthy Eating",
+      "description": "Eat a balanced Diet in every Meal",
+      "startDate": "2024-05-19",
+      "dayCount": 6
+    },
+    {
+      "id": "8b64",
+      "streakName": "Morning Run",
+      "description": "Run every morning.",
+      "startDate": "2024-05-21",
+      "dayCount": 4
+    },
+    {
+      "id": "7904",
+      "streakName": "Stop Smoking ",
+      "description": "Stop Smoking ",
+      "startDate": "2024-05-25",
+      "dayCount": 1
+    },
+    {
+      "id": "15bd",
+      "streakName": "Weight Lifting",
+      "description": "Eat a balanced Diet in every Meal",
+      "startDate": "2024-05-01",
+      "dayCount": 24
+    }
+  ]
+}

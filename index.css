@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #FFF3E2;
+    overflow-x: hidden;
+}
+
+.main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border: #f35e09;
+    margin-top: 20px;
+    box-shadow: 0 0 30px 0 rgba(231, 5, 5, 0.1);
+
+}
+.main h1 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #fc3706;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+.image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+
+}
+.streaks h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #f35e09;
+    margin: 0 auto;
+
+
+}
+.streaks{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Enable flex-wrap */
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #27160a;
+    font-size: 16px;
+    padding: 20px;
+    background-color: #FFF3E2;
+    margin-bottom: 500px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.streak {
+    width: calc(33.33% - 20px); /* Set the width of each streak item to 33.33% minus margin */
+    margin-bottom: 20px; /* Add margin between streak items */
+    padding: 10px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+    border: 4px solid #f35e09;
+    border-radius: 5px;
+}
+#addStreakBtn{
+    display: flex;
+    margin-top: 20px;
+    color: #0a0000d3;
+    margin: 0 auto;
+    padding: 6px;
+    border: none;
+    width : 80px;
+    background-color: #f35e09;
+    border-radius: 10px;
+
+
+
+}
+#addStreakBtn:hover {
+    background-color: rgb(92, 90, 89);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.form-popup {
+    display: none; /* Form is hidden by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    padding: 20px;
+    height: 380px;
+
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #FFF3E2;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 0 rgba(231, 5, 5, 0.1);
+    margin: 10px;
+    border: 1px solid #f35e09;
+    height: 380px;
+
+}
+.form-container h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #f35e09;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.form-container label {
+    font-size: 16px;
+    color: #000000;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.form-container input {
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px solid #f35e09;
+    border-radius: 5px;
+
+}
+.form-container .btn{
+    background-color: #047a53;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 10px 0;
+    opacity: 0.9;
+    font-size: 20px;
+}
+.form-container .btn:hover {
+    opacity: 1;
+    background-color: rgb(255, 96, 4);
+}
+.footer {
+    text-align: center;
+    margin-top: 480px;
+    color: #db4113;
+    font-weight: bold;
+    font-style: italic;
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .streak {
+        width: calc(50% - 20px); /* 2 columns */
+    }
+}
+
+@media (max-width: 768px) {
+    .streak {
+        width: calc(100% - 20px); /* 1 column */
+    }
+}

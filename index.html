@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Streak App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Welcome to DeChe Streak Counter</h1>
+        <div class="image">
+        <img src="Images/streak.jpg" alt="header image"></div>
+        <div class="streak btn" id="addStreakBtn">
+            <button>Add Streak</button></div>
+        
+    </div>
+    <div class="streaks" id="streaksContainer">
+        <h2>My Streaks</h2> </div>
+        <div id="streakFormPopup" class="form-popup">
+        <form class="form-container" id="form-container">
+            <h2>Add Streak</h2>
+
+            <label for="streakName"><b>Streak Name</b></label>
+            <input type="text" placeholder="Enter Streak Name" name="streakName" required>
+
+            <label for="description"><b>Description</b></label>
+            <input type="text" placeholder="Enter Description" name="description" required>
+
+            <label for="startDate"><b>Start Date</b></label>
+            <input type="date" name="startDate" required>
+
+            <button type="submit" class="btn">Add</button>
+            <button type="button" class="btn cancel" id="closeFormBtn">Close</button>
+        </form>
+    
+    <div class="footer">
+        <p>Created by: DECHE@2023</p>
+        <script src="./dist/app.js"></script>
+    
+    
+</body>
+</html>
